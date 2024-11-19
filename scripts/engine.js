@@ -17,7 +17,7 @@ const state = {
         curretTime: 10,
     },
     actions: {
-        timerId: setInterval(randomsquare, 100),
+        timerId: setInterval(randomsquare, 150),
         countDownTimerid: setInterval(countDown, 1000),
     }
 }
